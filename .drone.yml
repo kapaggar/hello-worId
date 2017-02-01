@@ -1,0 +1,8 @@
+publish:
+    docker:
+        repo: wizehub/kapaggar_hello-world
+        username: $$DOCKER_USER
+        password: $$DOCKER_PASS
+        email: $$DOCKER_EMAIL
+        tag: master
+        insecure: false
